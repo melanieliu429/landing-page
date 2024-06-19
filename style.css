@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightslategray;
+  color: white;
+  padding: 0px 16px;
+}
+
+
+ol {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+}
+
+a { 
+    text-decoration: none; 
+    color: white;
+  } 
+
+#description {
+    width: 400px;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: rgb(69, 149, 202);
+    border: 1px solid rgb(69, 149, 202);
+    color: white;
+}
+
+#mainimg {
+    background-color: gray;
+    width: 250px;
+}
+
+#navysection {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(77, 76, 76);
+    padding: 40px 40px;
+}
+
+#pictextsection {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.item {
+    text-align: center;
+    width: 200px;
+}
+
+.smallimg {
+    border-radius: 5px;
+    width: 150px;
+    height: auto;
+}
+
+#whitesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(77, 76, 76);
+    padding: 20px;
+    margin: 20px;
+}
+
+
+#quote {
+    font-size: 25px;
+    width: 600px;
+}
+#author {
+    text-align: right;
+    width: 600px;
+}
+
+#graysection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    font-family: "roboto";
+    padding: 50px 100px;
+}
+
+
+#bluebox {
+    color: white;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 40px;
+    margin: 50px 80px;
+    border-radius: 10px;
+}
+
+#footer {
+    background-color: darkgray;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
